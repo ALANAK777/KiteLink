@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "zerodha": {
+      "command": "node",
+      "args": ["./dist/index.js"],
+      "cwd": "./path/to/mcp-z",
+      "env": {
+        "ZERODHA_API_KEY": "your_api_key_here",
+        "ZERODHA_API_SECRET": "your_api_secret_here", 
+        "ZERODHA_ACCESS_TOKEN": "your_access_token_here",
+        "ZERODHA_BASE_URL": "https://api.kite.trade",
+        "REQUEST_TIMEOUT": "30000"
+      }
+    }
+  }
+}
