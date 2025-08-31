@@ -1,4 +1,4 @@
-# Zerodha MCP Server
+# KiteLink (Zerodha)
 
 A Model Context Protocol (MCP) server for Zerodha Kite trading platform integration.
 
